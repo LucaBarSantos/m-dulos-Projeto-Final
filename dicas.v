@@ -1,8 +1,8 @@
 module dicas(
-    input  [3:0] senhaA,
-    input  [2:0] senhaB,
-    input  [3:0] tentativaA,
-    input  [2:0] tentativaB,
+    input  senhaA,
+    input  senhaB,
+    input  tentativaA,
+    input  tentativaB,
     input  modoB,   // 0 = comparando senha A, 1 = senha B
 
     output paridade,        // para HEX7
@@ -35,3 +35,4 @@ always @(*) begin
 end
 
 endmodule
+
